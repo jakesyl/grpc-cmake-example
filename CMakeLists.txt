@@ -7,7 +7,7 @@ find_package(blocksci REQUIRED)
 add_compile_options(-std=c++11)
 
 # GRPC and Protocol Buffers libraries location
-list(APPEND CMAKE_PREFIX_PATH "/opt/grpc" "/opt/protobuf")
+list(APPEND CMAKE_PREFIX_PATH "/local/include/grpc" "./local/include/google/protobuf")
 
 # Cmake find modules
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")

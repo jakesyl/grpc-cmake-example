@@ -1,0 +1,4 @@
+/Users/jakesylvestre/jaker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jakesylvestre/jaker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jakesylvestre/jaker/cmake-build-debug/CMakeFiles/greeter_client.dir
+/Users/jakesylvestre/jaker/cmake-build-debug/CMakeFiles/greeter_server.dir

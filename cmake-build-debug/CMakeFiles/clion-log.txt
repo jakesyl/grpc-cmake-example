@@ -1,0 +1,6 @@
+"/Users/jakesylvestre/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jakesylvestre/jaker
+-- Using protobuf 
+-- Using gRPC 1.20.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jakesylvestre/jaker/cmake-build-debug

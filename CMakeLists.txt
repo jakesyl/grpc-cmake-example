@@ -1,5 +1,8 @@
-project(grpc-cmake-example)
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.5)
+PROJECT(BlockGrpc)
+set (CMAKE_CXX_STANDARD 17)
+find_package(blocksci REQUIRED)
+
 
 add_compile_options(-std=c++11)
 
@@ -10,7 +13,21 @@ list(APPEND CMAKE_PREFIX_PATH "/opt/grpc" "/opt/protobuf")
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 find_package(Protobuf REQUIRED)
+message(STATUS "Using protobuf ${protobuf_VERSION}")
 find_package(GRPC REQUIRED)
+
+set(protobuf_MODULE_COMPATIBLE TRUE)
+find_package(gRPC CONFIG REQUIRED)
+
+set(_PROTOBUF_LIBPROTOBUF protobuf::libprotobuf)
+set(_PROTOBUF_PROTOC $<TARGET_FILE:protobuf::protoc>)
+
+# Find gRPC installation
+# Looks for gRPCConfig.cmake file installed by gRPC's cmake installation.
+message(STATUS "Using gRPC ${gRPC_VERSION}")
+
+set(_GRPC_GRPCPP_UNSECURE gRPC::grpc++_unsecure)
+set(_GRPC_CPP_PLUGIN_EXECUTABLE $<TARGET_FILE:gRPC::grpc_cpp_plugin>)
 
 set(PROTOS
     ${CMAKE_CURRENT_SOURCE_DIR}/protos/helloworld.proto

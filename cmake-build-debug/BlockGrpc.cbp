@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BlockGrpc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\blocksci\;CMake Files\..\..\..\usr\local\lib\cmake\grpc\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jakesylvestre/jaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jakesylvestre/jaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jakesylvestre/jaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="greeter_client">
+				<Option output="/Users/jakesylvestre/jaker/cmake-build-debug/greeter_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakesylvestre/jaker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jakesylvestre/jaker/cmake-build-debug/proto-src"/>
+					<Add directory="/opt/grpc/include"/>
+					<Add directory="/opt/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 greeter_client"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="greeter_client/fast">
+				<Option output="/Users/jakesylvestre/jaker/cmake-build-debug/greeter_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakesylvestre/jaker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jakesylvestre/jaker/cmake-build-debug/proto-src"/>
+					<Add directory="/opt/grpc/include"/>
+					<Add directory="/opt/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 greeter_client/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="greeter_server">
+				<Option output="/Users/jakesylvestre/jaker/cmake-build-debug/greeter_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakesylvestre/jaker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jakesylvestre/jaker/cmake-build-debug/proto-src"/>
+					<Add directory="/opt/grpc/include"/>
+					<Add directory="/opt/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 greeter_server"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="greeter_server/fast">
+				<Option output="/Users/jakesylvestre/jaker/cmake-build-debug/greeter_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakesylvestre/jaker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jakesylvestre/jaker/cmake-build-debug/proto-src"/>
+					<Add directory="/opt/grpc/include"/>
+					<Add directory="/opt/protobuf/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 greeter_server/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakesylvestre/jaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jakesylvestre/jaker/cmake-build-debug/proto-src/helloworld.grpc.pb.cc">
+			<Option target="greeter_client"/>
+			<Option target="greeter_server"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/cmake-build-debug/proto-src/helloworld.grpc.pb.cc.rule">
+			<Option target="greeter_client"/>
+			<Option target="greeter_server"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/cmake-build-debug/proto-src/helloworld.pb.cc">
+			<Option target="greeter_client"/>
+			<Option target="greeter_server"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/cmake-build-debug/proto-src/helloworld.pb.cc.rule">
+			<Option target="greeter_client"/>
+			<Option target="greeter_server"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/greeter_client.cc">
+			<Option target="greeter_client"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/greeter_server.cc">
+			<Option target="greeter_server"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/../../../usr/local/lib/cmake/blocksci/blocksci-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\blocksci\"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/../../../usr/local/lib/cmake/blocksci/blocksci-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\blocksci\"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/../../../usr/local/lib/cmake/blocksci/blocksci-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\blocksci\"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/../../../usr/local/lib/cmake/grpc/gRPCConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/../../../usr/local/lib/cmake/grpc/gRPCConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/../../../usr/local/lib/cmake/grpc/gRPCTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/cmake/FindGRPC.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jakesylvestre/jaker/cmake/FindProtobuf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
